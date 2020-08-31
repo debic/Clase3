@@ -4,17 +4,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-        <title>Luiz iria</title>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet" />
+        <title>Clase infografía digital</title>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet" />
         <style>
-
-        	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:ital,wght@1,300&family=Poppins&family=Roboto:wght@100&display=swap');
-		
             body {
-                font-family: 'Poppins', sans-serif;
+                font-family: "Work Sans", sans-serif;
                 font-weight: 400;
-                background-color: #fafafa;
+                background-color: #fefefe;
                 color: #222;
             }
 
@@ -35,127 +32,107 @@
 
             h1 {
                 font-family: "DM Serif Display", serif;
-                color: #444;
+                color: #777;
                 letter-spacing: 0.05rem;
                 font-weight: 400;
                 text-shadow: 0.05rem 0.05rem 0.1rem rgba(55, 55, 55, 0.25), -0.05rem -0.05rem 0.1rem rgba(200, 200, 200, 0.25);
             }
+
+            h5 {
+                font-family: "Work Sans", sans-serif;
+                font-weight: 800;
+                font-size:0.9rem;
+                letter-spacing: 0.075rem;
+                color: #aaa;
+            }
+
             @media (min-width: 992px) {
                 p {
                     line-height: 1.8;
                     text-align: justify;
                 }
-
-                p{
-            	font-family: 'Roboto', sans-serif;
-            	font-size: 1rem;
             }
 
-            }
-            figure {
-                position: relative;
-                margin-bottom: 2rem;
-                overflow:hidden;
+            figure figcaption p {
+                padding: 1rem;
             }
 
+            @media (min-width: 762px) {
+                figure:nth-child(odd) figcaption p {
+                    border-right: 2px solid #ccc;
+                    padding-left: 1rem;
+                    text-align: right;
+                    color: #777;
+                }
 
-            figure img{
-                cursor:crosshair;
+                figure:nth-child(even) figcaption p {
+                    border-left: 2px solid #ccc;
+                    padding-right: 1rem;
+                    text-align: left;
+                    color: #777;
+                }
             }
-            figure figcaption {
-                position: absolute;
-                bottom: -2rem;
-                left: 0.95rem;
-                margin:0;
-                background: rgba(255, 255, 255, 0.9);
-            }
-            figure:hover figcaption {
-                bottom: 0;
-                transition: all ease 0.25s;
-
-            }            
         </style>
     </head>
     <body>
         <div class="container">
-            <div class="row py-3">
-            <div class="col-12 col-lg-4">
-                 	 <img src="img/0.jpg" class="img-fluid shadow-sm" />
-                 </div>
-                <div class="col-12 col-lg-8">
-                    <h1 class="py-4">LUIZ IRIA</h1>
-                    <p>Entre todos los talentosos periodistas visuales brasileños, pocos son tan conocidos en todo el mundo como Luiz Iria. Su papel en el creciente uso de la infografía en revistas no tiene igual en el país, y durante las casi dos décadas que trabajó en Editora Abril , inspiró e influyó a toda una generación de jóvenes diseñadores y periodistas con las infografías publicadas en SuperInteressante y Mundo Estranho. , solo por mencionar dos de las publicaciones más reconocidas y premiadas de Brasil.</p>
-                    
-                    <p>Él describe la infografia como: "...un lenguaje visual donde las imágenes agregadas a pequeños bloques de texto tienen como función principal explicar o informar contenido que sería difícil de entender solo con recursos de texto. Las infografías no tienen límites y se pueden utilizar para explicar cualquier contenido imaginable"</p>
-
-                     <p>Pueden revisar sus proyectos en su  <a href="https://www.luiziria.com.br/portfolio/">Sitio Web</a> o revisar su <a href="https://www.behance.net/luiziria">Behance</a></p>
-                    
+            <div class="row justify-content-center py-3">
+                <div class="col-12 col-lg-10">
+                    <h1 class="pt-4 text-left text-lg-center">Lorem Ipsum</h1>
+                    <h5 class="pb-4 text-left text-lg-center">NOMBRE APELLIDO</h5>
+                    <p>Cuando toque escribir la breve descripción general del asunto, prefiera usar <a href="https://es.wikipedia.org/wiki/Pir%C3%A1mide_invertida" target="_blank" title="Pirámide invertida - Wikipedia, la enciclopedia libre">la pirámide invertida</a> y tienda a lo <a href="https://www.nngroup.com/articles/be-succinct-writing-for-the-web/" target="_blank" title="Be Succinct! (Writing for the Web)">sucinto</a>.</p> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin venenatis sollicitudin magna. Nam dapibus velit id tempus interdum. Etiam tincidunt magna dapibus enim tincidunt tempor. Quisque blandit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in tempor nunc, sit amet tristique ligula. Donec fringilla fermentum diam. Nullam faucibus aliquam ipsum et scelerisque. Mauris in mauris.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt diam fringilla mauris aliquam mattis. Fusce blandit leo eu dictum dictum. Etiam ante risus, blandit vitae ex quis, feugiat mi.</p>
                 </div>
-                 
-
-
             </div>
-            <div class="row">
-                <!--Imagen 1-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/1.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">Jardines colgantes de Babilonia</figcaption>
-                </figure>
-                <!--Imagen 2-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/2.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">El arca de los animales extintos</figcaption>
-                </figure>
-                <!--Imagen 3-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/3.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">¿Cómo cavar túneles subterráneos?</figcaption>
-                </figure>
-                <!--Imagen 4-->
-                <figure class="col-12 col-lg-4">
-                    <img src=img/4.jpg class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">Biodiversidad en Rio de Janeiro</figcaption>
-                </figure>
-                <!--Imagen 5-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/5.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">¿Cómo eraa la vida de un dinosaurio?</figcaption>
-                </figure>
-                <!--Imagen 6-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/6.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">La acción del virus</figcaption>
-                </figure>
-                <!--Imagen 7-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/7.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">Túnel del tiempo</figcaption>
-                </figure>
-                <!--Imagen 8-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/8.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">La vida hierve en el HIELO</figcaption>
-                </figure>
-                 <!--Imagen 9-->
-                <figure class="col-12 col-lg-4">
-                    <img src="img/9.jpg" class="img-fluid shadow-sm" />
-                    <figcaption class="pt-1 pb-2 px-2 small">Gran muralla China</figcaption>
-                </figure>
+            <!--Imagen 1-->
+            <figure class="row flex-row">
+                <img src="img/1.jpg" class="img-fluid col-12 col-md-6" />
+                <figcaption class="d-flex align-items-center col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget luctus enim. Phasellus urna enim, euismod non vulputate viverra, sollicitudin in lorem. Vestibulum blandit lacinia dolor.</p>
+                </figcaption>
+            </figure>
+            <!--Imagen 2-->
+            <figure class="row flex-row">
+                <img src="img/2.jpg" class="img-fluid col-12 col-md-6 order-md-2" />
+                <figcaption class="d-flex align-items-center col-12 col-md-6 order-md-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget luctus enim. Phasellus urna enim, euismod non vulputate viverra, sollicitudin in lorem. Vestibulum blandit lacinia dolor.</p>
+                </figcaption>
+            </figure>
+            <!--Imagen 3-->
+            <figure class="row flex-row">
+                <img src="img/3.jpg" class="img-fluid col-12 col-md-6" />
+                <figcaption class="d-flex align-items-center col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget luctus enim. Phasellus urna enim, euismod non vulputate viverra, sollicitudin in lorem. Vestibulum blandit lacinia dolor.</p>
+                </figcaption>
+            </figure>
+            <!--Imagen 4-->
+            <figure class="row flex-row">
+                <img src="img/4.jpg" class="img-fluid col-12 col-md-6 order-md-2" />
+                <figcaption class="d-flex align-items-center col-12 col-md-6 order-md-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget luctus enim. Phasellus urna enim, euismod non vulputate viverra, sollicitudin in lorem. Vestibulum blandit lacinia dolor.</p>
+                </figcaption>
+            </figure>
+            <!--Imagen 5-->
+            <figure class="row flex-row">
+                <img src="img/5.jpg" class="img-fluid col-12 col-md-6" />
+                <figcaption class="d-flex align-items-center col-12 col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget luctus enim. Phasellus urna enim, euismod non vulputate viverra, sollicitudin in lorem. Vestibulum blandit lacinia dolor.</p>
+                </figcaption>
+            </figure>
 
-                <!--si quieres eliminar imágenes, elimina desde el comentario con el número hasta aquí-->
-            </div>
             <div class="row pt-5">
                 <footer class="col-12 py-3 border-top">
-                    <p>
-                        Debi Codriansky <span class="float-right"><a href="https://github.com/profesorfaco/dno075-2020">Infografía Digital</a> <span class="d-none d-lg-inline">&bull; Lunes 24 de agosto, 2020</span></span>
-                    </p>
+                    <p>Debi Codriansky <span class="float-right"><a href="https://github.com/profesorfaco/dno075-2020">Infografía Digital</a> <span class="d-none d-lg-inline">&bull; Lunes 31 de agosto, 2020</span></span></p>
                 </footer>
             </div>
         </div>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script>
-            // Pueden visitar https://scrollrevealjs.org/ para conocer más sobre esta biblioteca de JavaScript   
-            ScrollReveal().reveal('figure', { delay: 500 });
-        </script>        
+            // Pueden visitar https://scrollrevealjs.org/ para conocer más sobre esta biblioteca de JavaScript
+            ScrollReveal().reveal("figure img", { delay: 300 });
+            ScrollReveal().reveal("figure figcaption", { delay: 600 });
+        </script>
     </body>
 </html>
